@@ -1,0 +1,91 @@
+
+# Créé par https://www.gitignore.io/api/java,eclipse
+
+### Éclipse ###
+
+.metadata
+poubelle/
+tmp /
+* .tmp
+* .bak
+* .swp
+* ~ .nib
+local.properties
+.paramètres/
+.loadpath
+.recommenders
+
+# Constructeurs d'outils externes
+.externalToolBuilders /
+
+# Configurations de lancement Eclipse stockées localement
+*.lancement
+
+# Spécifique PyDev (IDE Python pour Eclipse)
+* .pydevproject
+
+# CDT spécifique (outil de développement C / C ++)
+.cproject
+
+# Processeur d'annotation Java (APT)
+.factorypath
+
+# Spécifique au PDT (Outils de développement PHP)
+.buildpath
+
+# sbteclipse plugin
+.cible
+
+# Plugin Tern
+Projet .tern
+
+# Le plugin TeXlipse
+.texlipse
+
+# STS (Spring Tool Suite)
+.springBeans
+
+# Code Recommandations
+.recommenders /
+
+# Scala IDE spécifique (développement Scala & Java pour Eclipse)
+.cache-main
+.scala_dependencies
+.feuille de travail
+
+### Patch Eclipse ###
+# Eclipse Core		
+.projet
+
+# Spécifique à JDT (Eclipse Java Development Tools)		
+.classpath
+
+# Traitement d'annotation
+.apt_generated
+
+### Java ###
+# Fichier de classe compilé
+*.classe
+
+# Fichier journal
+*.bûche
+
+# BlueJ fichiers
+* .ctxt
+
+# Outils mobiles pour Java (J2ME)
+.mtj.tmp /
+
+# Fichiers de package #
+*.pot
+*.guerre
+*.oreille
+*.Zip *: français
+* .tar.gz
+* .rar
+
+# journaux de plantage de machine virtuelle, voir http://www.java.com/fr/download/help/error_hotspot.xml
+hs_err_pid *
+
+
+# Fin de https://www.gitignore.io/api/java,eclipse
